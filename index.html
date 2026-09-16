@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prompt Injection Defense Lab</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <div class="topbar">
+      <div class="brand">
+        <span class="mark"></span>
+        <h1>Prompt Injection Defense Lab</h1>
+        <span class="subtitle">// educational simulation</span>
+      </div>
+      <div class="topbar-right">
+        <div class="overall-progress">
+          <span id="progressLabel">0% COMPLETE</span>
+          <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+        </div>
+        <button class="icon-btn" id="historyBtn">HISTORY</button>
+        <button class="icon-btn" id="themeToggle">LIGHT MODE</button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-section-label">CURRICULUM</div>
+      <div id="lessonNav"></div>
+      <div class="sidebar-footer">
+        <button class="text-btn" id="resetBtn">Reset all progress</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div id="mainContent"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="lessons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "prompt-injection-defense-lab",
+  "version": "1.0.0",
+  "description": "An interactive, browser-based educational lab for learning prompt injection attacks and defensive system-prompt design. No backend, no build step, no external AI API - open index.html directly.",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "test": "node test/smoke.test.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": ["ai-security", "prompt-injection", "llm-security", "education"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
