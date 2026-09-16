@@ -495,7 +495,7 @@ Because the project is primarily a client-side educational application, it can b
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Muhammad-Usman-cyber/prompt-injection-defense-lab.git](https://github.com/Muhammad-Usman-cyber/prompt-injection-defense-lab.git)
+   git clone https://github.com/Muhammad-Usman-cyber/prompt-injection-defense-lab.git
    ```
 2. Enter the project directory:
    ```bash
